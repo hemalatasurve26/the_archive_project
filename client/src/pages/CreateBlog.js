@@ -35,7 +35,7 @@ const CreateBlog = () => {
       if (data?.success) {
         alert("Archive Created");
         // navigate("/my-blogs");
-        window.location.replace("/my-blogs");
+        window.location.replace("https://main--glowing-zuccutto-d526a2.netlify.app/my-blogs");
       }
     } catch (error) {
       console.log(error);
