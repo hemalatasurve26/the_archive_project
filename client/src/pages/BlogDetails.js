@@ -52,7 +52,7 @@ const BlogDetails = () => {
       if (data?.success) {
         alert("Archive Updated");
         // navigate("/my-blogs");
-        window.location.replace("https://main--glowing-zuccutto-d526a2.netlify.app/my-blogs");
+        window.location.replace("/my-blogs");
       }
     } catch (error) {
       console.log(error);
