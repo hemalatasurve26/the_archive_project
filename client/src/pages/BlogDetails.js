@@ -13,7 +13,7 @@ const BlogDetails = () => {
 
   const getAllBlogDetail = async () => {
     try {
-      const { data } = await axios.get(`/api/v1/blog/get-blog/${id}`);
+      const { data } = await axios.get(`https://thearchive.onrender.com/api/v1/blog/get-blog/${id}`);
       if (data?.success) {
         setBlog(data?.blog);
         setInputs({
