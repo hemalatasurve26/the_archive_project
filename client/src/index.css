@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "roboto", sans-serif;
+}
+.blogs {
+  text-align: center;
+  margin-top: 300px;
+  color: darkmagenta;
+}
+.header1 {
+  background-color: rgb(35, 34, 37);
+  font-family: cursive;
+}
+.css-7e0s21-MuiPaper-root-MuiAppBar-root {
+  background-color: rgb(33, 31, 35);
+  font-family: cursive;
+}
+Typography {
+  font-family: cursive;
+  color: brown;
+}
