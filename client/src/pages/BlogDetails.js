@@ -51,8 +51,8 @@ const BlogDetails = () => {
       // navigate("/");
       if (data?.success) {
         alert("Archive Updated");
-        navigate("/my-blogs");
-        // window.location.replace("https://main--glowing-zuccutto-d526a2.netlify.app/my-blogs");
+        // navigate("/my-blogs");
+        window.location.replace("https://main--glowing-zuccutto-d526a2.netlify.app/my-blogs");
       }
     } catch (error) {
       console.log(error);
