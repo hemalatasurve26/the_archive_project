@@ -27,7 +27,7 @@ export default function BlogCard({
   };
   const handleDelete = async () => {
     try {
-      const { data } = await axios.delete(`/api/v1/blog/delete-blog/${id}`);
+      const { data } = await axios.delete(`https://thearchive.onrender.com/api/v1/blog/delete-blog/${id}`);
       if (data?.success) {
         alert("Blog Deleted");
         // navigate("/my-blogs");
